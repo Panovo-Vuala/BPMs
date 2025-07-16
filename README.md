@@ -23,19 +23,17 @@ Diseñar un tablero en Power BI para medir y visualizar los resultados de las ev
 
 ```plaintext
 Buenas-Practicas-Manufactura/
+├── README.md                               → Descripción general del repositorio
 ├── pbix/                                   → Archivo PBIX del tablero
 ├── docs/
-│   ├── README.md                           → Descripción general del repositorio
-│   ├── Medidas.md                          → Medidas DAX documentadas
+│   ├── Medidas_DAX.md                      → Medidas DAX documentadas
 │   ├── Columnas_Calculadas.md              → DAX documentadas
-│   ├── Tablas_Catalogo.md                   → DAX documentadas
-│   ├── Instructivo Dashboard OEE.docx      → Guía de uso del dashboard
-├── sql/ 
-│   └── consulta_fuente_OEE.sql             → Consulta SQL base
+│   └── video_tutorial.md                   → Guía de uso del dashboard
 ├── img/
 │   ├── preview_dashboard.png               → Captura del dashboard
-│   └── modelo_datos.png                    → Relación entre tablas
-└── LICENSE                                 → MIT (u otra que se defina)
+│   ├── ModeloDatos.png                     → Captura de las relaciones entre tablas
+│   └── preview_app.png                     → Captura de la aplicación
+└── ─── modelo_datos.png                    → Relación entre tablas
 ```
 
 ---
@@ -49,12 +47,7 @@ Buenas-Practicas-Manufactura/
 ## 📎 Cómo utilizarlo
 
 1. Clona este repositorio.
-2. Abre el archivo `pbix/Dashboard_OEE_Coflex.pbix` con Power BI Desktop.
+2. Abre el archivo `pbix/Tablero BPMs.pbix` con Power BI Desktop.
 3. Conecta tu fuente de datos o consulta en SQL Server.
 4. Revisa la documentación en `/docs` para entender cada fórmula y estructura.
 
----
-
-## 📄 Licencia
-
-MIT – Libre uso con atribución.
